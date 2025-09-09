@@ -1,0 +1,31 @@
+@media (width >= 48rem) {
+	main#grid-container {
+		grid-template-areas:
+			"aside i8 i8 i5"
+			"aside i7 i6 i5"
+			"aside i3 i4 i4";
+	}
+
+	aside#group {
+		grid-area: aside;
+	}
+
+	div#item-3 {
+		grid-area: i3;
+	}
+	div#item-4 {
+		grid-area: i4;
+	}
+	div#item-5 {
+		grid-area: i5;
+	}
+	div#item-6 {
+		grid-area: i6;
+	}
+	div#item-7 {
+		grid-area: i7;
+	}
+	div#item-8 {
+		grid-area: i8;
+	}
+}
