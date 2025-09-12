@@ -1,14 +1,14 @@
 import postCreationImage from "../../../assets/images/illustration-create-post.webp";
 
-function ItemOne() {
-	const item = document.createElement("div");
+function ItemOne(): HTMLElement {
+	const item = document.createElement("article");
 	item.id = "item-1";
 	item.className =
-		"flex flex-col justify-center md:items-center p-6 md:p-0 md:py-2 bg-[#FAEEE2] rounded-xl md:flex-1/2";
+		"flex flex-col justify-center lg:items-center p-6 lg:p-0 lg:py-2 bg-[#FAEEE2] rounded-xl lg:flex-1/2";
 
 	item.innerHTML = /*html*/ `
-		<figure class="flex flex-col gap-4 md:gap-6 md:max-w-[80%] md:max-h-[90%]">
-			<figcaption class="font-bold text-3xl md:text-[clamp(1.5rem,2vw,3.5rem)]">
+		<figure class="flex flex-col gap-4 lg:gap-6 lg:max-w-[80%] lg:max-h-[90%]">
+			<figcaption class="font-bold text-3xl lg:text-[clamp(1.5rem,2vw,3.5rem)]">
 				Create and schedule content <span class="text-[#7B53E0] italic">quicker.</span>
 			</figcaption>
 			<img class="w-[70%]" loading="lazy" src="${postCreationImage}" alt="Illustration of post creation">

@@ -1,16 +1,16 @@
 import Aside from "../components/aside/Aside.js";
-import ItemEight from "../components/ItemEight.js";
-import ItemFive from "../components/ItemFive.js";
-import ItemFour from "../components/ItemFour.js";
-import ItemSeven from "../components/ItemSeven.js";
-import ItemSix from "../components/ItemSix.js";
 import ItemThree from "../components/ItemThree.js";
+import ItemFour from "../components/ItemFour.js";
+import ItemFive from "../components/ItemFive.js";
+import ItemSix from "../components/ItemSix.js";
+import ItemSeven from "../components/ItemSeven.js";
+import ItemEight from "../components/ItemEight.js";
 
-function BentoGrid() {
-	const gridContainer = document.createElement("main");
+function BentoGrid(): HTMLElement {
+	const gridContainer = document.createElement("section");
 
 	gridContainer.id = "grid-container";
-	gridContainer.className = `justify-end flex flex-col-reverse px-4 md:p-0 py-6 gap-8 md:grid md:grid-cols-4 md:gap-4`;
+	gridContainer.className = `justify-end flex flex-col-reverse px-4 lg:p-0 py-6 gap-8 lg:grid lg:grid-cols-4 lg:gap-4`;
 
 	gridContainer.append(
 		Aside,

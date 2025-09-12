@@ -1,20 +1,20 @@
 import IllustrationForSchedule from "../assets/images/illustration-consistent-schedule.webp";
 
-function ItemSix() {
-	const item = document.createElement("div");
+function ItemSix(): HTMLElement {
+	const item = document.createElement("article");
 	item.id = "item-6";
 	item.className = "bg-[#FFCC69] rounded-xl overflow-hidden";
 
 	item.innerHTML = /*html*/ `
-	 <figure class="flex flex-col px-4 pt-5 md:p-0 md:h-full md:justify-evenly md:items-center gap-3 md:gap-0">
+	 <figure class="flex flex-col px-4 pt-5 lg:p-0 lg:h-full lg:justify-evenly lg:items-center gap-3 lg:gap-0">
 	 	<figcaption
-			class="p-3 md:pb-0 md:pt-3 md:px-3 text-3xl md:text-[clamp(0.25rem,2vw,1.35rem)] font-bold"
+			class="p-3 lg:pb-0 lg:pt-3 lg:px-3 text-3xl lg:text-[clamp(0.25rem,2vw,1.35rem)] font-bold"
 		>
 			Maintain a consistent posting schedule.
 		</figcaption>
 
 	 	<img 
-			class="w-[80%] transform translate-y-[15%] md:translate-y-[20%]" 
+			class="w-[80%] transform translate-y-[15%] lg:translate-y-[20%]" 
 			loading="lazy" 
 			src="${IllustrationForSchedule}" 
 			alt="Illustration of consistent schedule"

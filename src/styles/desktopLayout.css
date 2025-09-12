@@ -1,0 +1,46 @@
+@tailwind utilities;
+
+@media (min-width: 1024px) {
+	@layer utilities {
+		#grid-container {
+			@apply grid grid-cols-[repeat(4,1fr)] grid-rows-[repeat(3,1fr)] max-h-[calc(100dvh-2rem)] max-w-[calc(75dvw-2rem)] gap-4;
+
+			grid-template-areas:
+				"aside i8 i8 i5"
+				"aside i7 i6 i5"
+				"aside i3 i4 i4";
+		}
+
+		[id^="item-"] {
+			@apply rounded-lg shadow-md max-h-full overflow-hidden cursor-pointer transition duration-200 hover:transform hover:scale-105 hover:shadow-2xl;
+		}
+
+		#group {
+			grid-area: aside;
+		}
+
+		#item-3 {
+			grid-area: i3;
+		}
+
+		#item-4 {
+			grid-area: i4;
+		}
+
+		#item-5 {
+			grid-area: i5;
+		}
+
+		#item-6 {
+			grid-area: i6;
+		}
+
+		#item-7 {
+			grid-area: i7;
+		}
+
+		#item-8 {
+			grid-area: i8;
+		}
+	}
+}
