@@ -1,11 +1,11 @@
-# Frontend Mentor – Solución al reto Bento Grid
+# Frontend Mentor – Solución al reto Bento Grid 🔥💪
 
-Esta es mi solución al [reto Bento Grid en Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj).
+Esta es mi solución 🔬 al [reto Bento Grid en Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj).
 
 ## Tabla de contenidos
 
 -   [Resumen](#resumen)
--   [Capturas de pantalla](#capturas-de-pantalla)
+-   [Capturas de pantalla](#captura-de-pantalla)
 -   [Enlaces](#enlaces)
 -   [Mi proceso](#mi-proceso)
     -   [Tecnologías utilizadas](#tecnologías-utilizadas)
