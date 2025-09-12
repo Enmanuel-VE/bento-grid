@@ -4,7 +4,7 @@ import ItemTwo from "./items/ItemTwo.js";
 function Aside() {
 	const aside = document.createElement("aside");
 	aside.id = "group";
-	aside.className = "flex flex-col gap-4 md:row-span-2";
+	aside.className = "flex flex-col gap-4 md:h-full md:justify-items-center";
 	aside.append(ItemOne, ItemTwo);
 	return aside;
 }

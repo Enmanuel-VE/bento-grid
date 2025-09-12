@@ -4,27 +4,53 @@
 			"aside i8 i8 i5"
 			"aside i7 i6 i5"
 			"aside i3 i4 i4";
+
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+
+		max-height: calc(100dvh - 2rem);
+		max-width: calc(75dvw - 2rem);
+
+		gap: 1rem;
+	}
+
+	main#grid-container > * {
+		max-height: 100%;
+		overflow: hidden;
 	}
 
 	aside#group {
 		grid-area: aside;
 	}
 
+	div#item-1 {
+		grid-area: i1;
+	}
+
+	div#item-2 {
+		grid-area: i2;
+	}
+
 	div#item-3 {
 		grid-area: i3;
 	}
+
 	div#item-4 {
 		grid-area: i4;
 	}
+
 	div#item-5 {
 		grid-area: i5;
 	}
+
 	div#item-6 {
 		grid-area: i6;
 	}
+
 	div#item-7 {
 		grid-area: i7;
 	}
+
 	div#item-8 {
 		grid-area: i8;
 	}

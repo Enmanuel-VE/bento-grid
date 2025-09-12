@@ -2,14 +2,14 @@ import BentoGrid from "./template/BentoGrid.js";
 import { $ } from "./utils/shortFunctions.js";
 
 function app() {
-	const ROOT = $("#app");
+	const APP = $("#app");
 
-	if (!ROOT) throw new Error("No root element found");
+	if (!APP) throw new Error("No root element found");
 
-	ROOT.className =
-		"flex justify-center items-center min-h-screen bg-[#F5F5F5]";
+	APP.className =
+		"flex justify-center items-center min-h-[100dvh] bg-[#F5F5F5]";
 
-	ROOT.append(BentoGrid);
+	APP.append(BentoGrid);
 }
 
 window.addEventListener("load", app);

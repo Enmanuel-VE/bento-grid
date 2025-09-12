@@ -10,7 +10,7 @@ function BentoGrid() {
 	const gridContainer = document.createElement("main");
 
 	gridContainer.id = "grid-container";
-	gridContainer.className = `min-h-screen justify-end flex flex-col-reverse px-4 md:py-4 py-6 gap-8 md:grid md:grid-cols-3 md:grid-cols-4 md:gap-4`;
+	gridContainer.className = `justify-end flex flex-col-reverse px-4 md:p-0 py-6 gap-8 md:grid md:grid-cols-4 md:gap-4`;
 
 	gridContainer.append(
 		Aside,
