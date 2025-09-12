@@ -26,8 +26,8 @@ Este reto consiste en poner a prueba las habilidades de **estilizado**. Se puede
 
 ### Enlaces
 
--   URL de la solución: [pendiente]
--   URL del sitio en vivo: [pendiente]
+-   URL de la solución: [GitHub](https://github.com/Enmanuel-VE/bento-grid)
+-   URL del sitio en vivo: [Demo](https://enmanuel-ve.github.io/bento-grid/)
 
 ---
 
